@@ -39,3 +39,9 @@ My goal is to learn js, become a highly skilled developer and find a job in IT.
             }
             return lastStr;
         }
+
+# Experience 
+The experience gained in the process of studying at the university, has already taken rs courses once, external EPAM training.
+
+# Education
+Graduated from the GSTU named after P.O. Suhoi, majoring in software engineering, is currently in my 1st year of graduate studies.
