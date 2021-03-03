@@ -45,3 +45,6 @@ The experience gained in the process of studying at the university, has already 
 
 # Education
 Graduated from the GSTU named after P.O. Suhoi, majoring in software engineering, is currently in my 1st year of graduate studies.
+
+# English 
+Level B1-B2, I studied with a tutor for several years.
