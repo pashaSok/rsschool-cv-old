@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<title>Pavel Karpeko </title>
+
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+</head>
+<body>
+	<header>
+		<div class="container">
+			<span>Pavel Karpeko</span>
+		</div>
+	</header>
+    <section class="info">
+		<div class="container">
+			<div class="info__photo">
+				<div class="photo__wrapper"><img src="./assets/pMRQl9ZQCNQ.jpg" alt="my-photo" class="myPhoto"></div>
+			</div>
+			<div class="info__wrapper">
+				<div class="info__wrapper__el">
+					<p>Full Name</p>
+					<p>Karpeko Pavel</p>
+				</div>
+				<div class="info__wrapper__el">
+					<p>Address</p>
+					<p>Belarus, Homel</p>
+				</div>
+				<div class="info__wrapper__el">
+					<p>Date of birth</p>
+					<p>16 january</p>
+				</div>
+				<div class="info__wrapper__el">
+					<p>Mail</p>
+					<p><a href="#">syffiks2325@gmail.com</a></p>
+				</div>
+				<div class="info__wrapper__el">
+					<p>Phone</p>
+					<p>+375293906429</p>
+				</div>
+			</div>
+		</div>
+	</section>
+    <section class="about">
+		<div class="container">
+			<div class="about__el">
+				<div class="about__title__wrapper">
+					<img src="./assets/report.png" alt="summary">
+					<span>Summary</span>
+				</div>
+				<p>My goal is to learn js, become a highly skilled developer and find a job in IT.</p>
+			</div>
+			<div class="about__el">
+				<div class="about__title__wrapper">
+					<img src="./assets/skills.png" alt="skills">
+					<span>Skills</span>
+				</div>
+				<ul>
+					<li>HTML/HTML5</li>
+					<li>CSS/SCSS</li>
+                    <li>JS</li>
+                    <li>Webpack</li>
+					<li>C#</li>
+					<li>jQuery</li>
+					<li>SQL</li>
+					<li>BEM</li>
+					<li>Agile</li>
+				</ul>
+			</div>
+			<div class="about__el">
+				<div class="about__title__wrapper">
+					<img src="./assets/programmer.png" alt="code example">
+					<span>Code example:</span>
+				</div>
+				<pre>
+					<code> 
+	function fu(str){
+		let result={};
+		let newStr =str.split('').sort();
+		for(let item of newStr){
+			if(!result[item]){
+				result[item]=1;
+			}
+			else{
+				result[item]++;
+			}
+		}
+		var lastStr='';
+		for (let key in result){
+			lastStr = lastStr + (key + result[key]);
+		}
+		return lastStr;
+	}
+					</code>
+				</pre>
+			</div>
+			<div class="about__el">
+			<div class="about__title__wrapper">
+				<img src="./assets/promotion.png" alt="experience">
+				<span>Experience</span>
+			</div>
+				<p>The experience gained in the process of studying at the university, has already taken rs courses once, external EPAM training.</p>
+			</div>
+			<div class="about__el">
+				<div class="about__title__wrapper">
+					<img src="./assets/think.png" alt="education">
+					<span>Education</span>
+				</div>
+				<p>Graduated from the GSTU named after P.O. Suhoi, majoring in software engineering, is currently in my 1st year of graduate studies.</p>
+			</div>
+			<div class="about__el">
+				<div class="about__title__wrapper">
+					<img src="./assets/double-decker-bus.png" alt="english">
+					<span>English</span>
+				</div>
+				<p>Level B1-B2, I studied with a tutor for several years.</p>
+			</div>
+		</div>
+	</section>
+    <footer>
+		<div class="container"><p>Created by Pavel Karpeko 2020</p></div>
+	</footer>
+</body>
+</html>
