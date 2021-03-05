@@ -130,6 +130,9 @@ header{
 	display: flex;
 	align-items: center;
 }
+.info__wrapper__el:last-child li{
+	font-size: 25px;
+}
 .info__wrapper{
 	width: 40%;
 }
